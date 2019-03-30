@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<style>
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.id p{
+
+margin:0;
+position:absolute;
+margin-top:-2%;
+margin-left:20%;
+margin-right:150px;
+
+}
+.w3-lobster {
+    font-family: "Lobster", serif;
+
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="w3-container w3-serif">
+<table>
+<tr>
+<td width="83%">
+  <p class="w3-xxlarge"><img src="logo.jpg" width="70"><font color="green">Al-Shifa Unani Clinic<sub><i><font size=2>Healing with herb</sub></i></font></font></td>
+<td align="right">Hakeem Mohd.Akram Laeeque
+<a href="http://www.facebook.com" target="_blank"><img src="fb.jpg" width="50" height="30" align="right"></a></p></td></tr></table>
+
+
+<div class="w3-container">
+<ul class="w3-navbar w3-green w3-xlarge">
+<li style="width:25%"><a href="#">Home</li></a>
+<li style="width:25%"><a href="#">Doctors</li></a>
+<li style="width:25%"><a href="#">Contact</li></a>
+<li style="width:25%"><a href="#">About us</li></a>
+</div>
+
+
+</body>
+</html>
